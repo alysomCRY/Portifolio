@@ -51,10 +51,6 @@ nav a:hover::after {
 .menua a:hover {
     color: rgb(233, 233, 233);
 }
-.neon {
-    position: absolute;
-    
-}
 .wellcome {
     font-family: 'Squada One';
     font-style: normal;
