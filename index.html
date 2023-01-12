@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="slider.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="neons.css">
+    <link rel="stylesheet" href="cards.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
@@ -108,8 +109,7 @@
                     <input type="radio" name="btn-radio" id="r1" />
                     <input type="radio" name="btn-radio" id="r2" />
                     <input type="radio" name="btn-radio" id="r3" />
-                    <input type="radio" name="btn-radio" id="r4" />
-        
+                    <input type="radio" name="btn-radio" id="r4" />        
                 <div class="img-slide first">
                         <img class="imgs" src="imgs/imgSlide1.png" alt="img1" />
                     </div>
@@ -127,8 +127,7 @@
                         <div class="btn2"></div>
                         <div class="btn3"></div>
                         <div class="btn4"></div>
-                    </div>
-                    
+                    </div>                 
                 </div>
                 <div class="mnl-nav">
                     <label for="r1" class="btn-manual"></label>
@@ -136,22 +135,76 @@
                     <label for="r3" class="btn-manual"></label>
                     <label for="r4" class="btn-manual"></label>
                 </div>
-                
             </div>
-        
     </header>
-    <main>
-        <div class="carroucel" ></div>
-        <div class="projetos" ></div>
-        <div class="sobre" ></div>
-        <div class="skills" ></div>
-        <div class="redes" ></div>
-    </main>
+    <section class="cards" >       
+        <div class="container" >
+            <div class="card" >
+                <div class="conteudo">
+                    <img src="imgs/imgCards/img1.png" alt="">
+                    <h3>Cruud</h3>
+                    <p>Cruud completo em JavaScript</p>
+                    <a target="_blank" href="https://github.com/alysomCRY/MiniProjetosCRUD">Mais informaçôes</a>
+                </div>
+            </div>
+            <div class="card" >
+                <div class="conteudo">
+                    <img src="imgs/imgCards/img2.png" alt="">
+                    <h3>Alura Geek</h3>
+                    <p>Projeto wip escola alura</p>
+                    <a target="_blank" href="https://github.com/alysomCRY/aluraGeek">Mais informaçôes</a>
+                </div>
+            </div>
+            <div class="card" >
+                <div class="conteudo">
+                    <img src="imgs/imgCards/img3.png" alt="">
+                    <h3>Organo React</h3>
+                    <p>Projeto de cadastro de funcionários feito em react</p>
+                    <a target="_blank" href="https://www.linkedin.com/posts/alysom-crystyam-328a51254_react-devs-developer-activity-7018311643914743808-PZkW?utm_source=share&utm_medium=member_desktop">Mais informaçôes</a>
+                </div>
+            </div>
+        </div>
+        <div class="container" >
+            <div class="card" >
+                <div class="conteudo">
+                    <img src="imgs/imgCards/img4.png" alt="">
+                    <h3>Todo List</h3>
+                    <p>Todo list para tarefas do dia a dia</p>
+                    <a target="_blank" href="https://github.com/alysomCRY/MiniProjetosTodo-list">Mais informaçôes</a>
+                </div>
+            </div>
+            <div class="card" >
+                <div class="conteudo">
+                    <img src="imgs/imgCards/img5.png" alt="">
+                    <h3>Jogo Freeway</h3>
+                    <p>Jogo antigo Freeway feito em JavaScript</p>
+                    <a target="_blank" href="https://github.com/alysomCRY/ProjetoJogoFreeway">Mais informaçôes</a>
+                </div>
+            </div>
+            <div class="card" >
+                <div class="conteudo">
+                    <img src="imgs/imgCards/img6.png" alt="">
+                    <h3>Portifólio</h3>
+                    <p>Projeto v1.0 Portifólio Alysom</p>
+                    <a target="_blank" href="https://github.com/alysomCRY/Portifolio">Mais informaçôes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <footer>
 
     </footer>
     <script src="script.js"></script>
     <script src="slider.js"></script>
+    <script src="vanilla-tilt.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+    });
+</script>
 </body>
 
 </html>
