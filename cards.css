@@ -2,7 +2,8 @@
 .cards {
     justify-content: center;  
     max-width: 1200px;
-    margin: 200px auto; 
+    margin: 350px auto;
+    
 }.container {
     position: relative;
     display: flex;
@@ -76,4 +77,15 @@
     border-radius: 10px;
     margin-top: -50px;
     border: 2px solid #FF6CAC;
+}
+.cards h1 {
+    text-align: center;
+    font-family: 'Squada One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 10px black;
+    padding-bottom: 20px;
 }
